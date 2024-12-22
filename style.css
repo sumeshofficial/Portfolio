@@ -23,7 +23,7 @@
     border-color: transparent;
 }
 
-header{
+.banner{
     background-image: url(assets/images/banner-bg.png);
     background-size: cover;
     height: 100%;
@@ -67,4 +67,7 @@ html,body
     margin-top: -6px;
     letter-spacing: 1px; /* Adjusts space between letters */
     display: inline-block;
+}
+.nav-nav{
+    padding-bottom: 272px;
 }
