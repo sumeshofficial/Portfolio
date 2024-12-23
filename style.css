@@ -42,8 +42,8 @@ html,body
 }
 .icon:hover{
     color: rgb(0, 0, 0);
-    background-color: white;
-    --fa-border-color:white;
+    background-color: rgb(221, 212, 212);
+    --fa-border-color:rgb(221, 212, 212);
 }
 .icon{
     color: white;
@@ -65,9 +65,139 @@ html,body
     padding-left: 25px;
     padding-right: 25px;
     margin-top: -6px;
-    letter-spacing: 1px; /* Adjusts space between letters */
+    letter-spacing: 1px;
     display: inline-block;
 }
-.nav-nav{
-    padding-bottom: 272px;
+.let:hover{
+    border-color: #b9b7b7;
+    color: #b9b7b7;
 }
+.nav-nav{
+    padding-bottom: 250px;
+}
+.h5{
+    border-style: groove;
+    border-color: #9b9696;
+    border-width: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "CentraNo2-Medium";
+    margin-bottom: -5px;
+    margin-left: -10px;
+    padding-right: -50px;
+    letter-spacing: 1px;
+}
+.bg{
+    background-image: url(assets/images/color-sharp.png);
+    width: 280px;
+    background-position: left center;
+}
+h1 {
+    font-size: 9vmin;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    margin: 1rem 0 5px 15px;
+  }
+  @keyframes typing {
+    0% { content: ""; }
+    8.33% { content: "W"; }
+    16.66% { content: "We"; }
+    25% { content: "Web"; }
+    33.33% { content: "Web "; }
+    41.66% { content: "Web D"; }
+    50% { content: "Web De"; }
+    58.33% { content: "Web Des"; }
+    66.66% { content: "Web Desi"; }
+    75% { content: "Web Desig"; }
+    83.33% { content: "Web Design"; }
+    91.66% { content: "Web Designe"; }
+    100% { content: "Web Designer"; }
+  }
+.typewriter {
+    --caret: currentcolor;
+}
+
+.typewriter::before {
+    content: "";
+    animation: typing 8.5s infinite;
+}
+
+.typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+}
+
+@media (prefers-reduced-motion) {
+    .typewriter::after {
+        animation: none;
+    }
+
+    @keyframes sequencePopup {
+        0%, 100% { content: "Web Designer"; }
+        25% { content: "Web Designer"; }
+        50% { content: "Web Designer"; }
+        75% { content: "Web Designer"; }
+    }
+
+    .typewriter::before {
+        content: "Web Designer";
+        animation: sequencePopup 12s linear infinite;
+    }
+}
+.wel-por{
+    padding-left: 35px;
+}
+.about-para{
+    color: #838282;
+    
+
+}
+.let-s{
+    text-decoration: none;
+    color: white;
+    --fa-border-color:white;
+    font-family: "CentraNo2-Bold";
+    padding-left: 17px;
+    
+}
+.let-s:hover{
+    color: #b9b7b7;
+}
+.image{
+   
+    width: 350px;
+   
+}
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0); /* Start position */
+    }
+    50% {
+      transform: translateY(-20px); /* Move up */
+    }
+    100% {
+      transform: translateY(0); /* Move back to the original position */
+    }
+  }
+  
+  /* Apply the animation to the image within the .header class */
+  .header img {
+    animation: moveUpDown 2s ease-in-out infinite; /* 2s duration, easing, infinite loop */
+  }
+  .skill{
+    background-color: black;
+    background-image: url(assets/images/color-sharp.png);
+    background-position: left top;
+    background-size: cover;
+    height: 100%;
+  }
+  
+
+
+
+
+
