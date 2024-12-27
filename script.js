@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   var navbar1 = document.getElementById('navbar1');
 
-  // Check if the navbar element exists
   if (navbar1) {
 
       window.addEventListener('scroll', function () {
@@ -50,3 +49,4 @@ var multipleCardCarousel = document.querySelector(
   } else {
     $(multipleCardCarousel).addClass("slide");
   }
+  

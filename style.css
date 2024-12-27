@@ -32,6 +32,7 @@
 html, body {
     overflow-x: hidden;
     width: 100%;
+    background-color: #000000;
 }
 .text{
     font-family: "CentraNo2-Book";
@@ -181,13 +182,14 @@ h1 {
   }
 }
 .header img {
-    animation: moveUpDown 2s ease-in-out infinite;
+    animation: moveUpDown 3s linear infinite;
 }
 .skill-bg{
    background-color: black;
    background-image: url(assets/images/color-sharp.png);
    background-position:  0% 15%;
    background-size: cover;
+   height: 100%;
 }
 .navbar {
    transition: background-color 0.3s ease;
@@ -277,7 +279,6 @@ h1 {
       height: 17em;
     }
 }
-
 .progress {
     width: 150px;
     height: 150px !important;
@@ -430,7 +431,152 @@ h1 {
     color: #838282;
     font-family: "CentraNo2-Book";
 }
-  
+.project .nav.nav-pills {
+    width: 72%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+}
+.project .nav.nav-pills .nav-item {
+    width: 33.33333%;
+}
+.project .nav.nav-pills .nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+}
+.project .nav.nav-pills .nav-link::before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 100%;
+      background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: 0.3s ease-in-out;
+}
+.project .nav.nav-pills .nav-link.active::before {
+      width: 100%;
+}
+.border{
+    border-color: #706f6f;
+}
+.project .text-color{
+    padding-top: 15px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    color: #706f6f;
+}
+.contact-bg{
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    padding: 60px 0 100px 0;
+}
+.contact-img img{
+    width: 92%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.contact-h2{
+    font-size: 45px;
+    font-family: "CentraNo2-Bold";
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.form-control{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    background: rgba(255, 255, 255, 1);
+    color: #121212;
+    box-shadow: none;
+    border-color: white;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.contact-form input:focus::placeholder, .contact-form textarea:focus::placeholder {
+    color: #121212;
+    opacity: 0.8;
+}
+.contact-form button {
+    font-weight: 700;
+    color: #121212;
+    background-color: #fff;
+    padding: 14px 48px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 0;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-color: #fff;
+}
+.contact-form button {
+    z-index: 1;
+    position: relative;
+}
+.contact-form button:hover {
+    color: #fff;
+    border-color: #121212;
+}
+.contact-form button::before {
+    content: "";
+    background-color: #121212;
+    color: #fff;
+    border-color: #121212;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: 0.3s ease-in-out;
+}
+.contact-form button:hover::before {
+    width: 100%;
+}
+#inputText::placeholder{
+    margin-bottom: 200px;
+}
+.footer-bg{
+    background-image: url(assets/images/footer-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;;
+}
+.footer p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #B8B8B8;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+}
+.footer-icon{
+    margin-left: -30px;
+}
+
   
  
   
