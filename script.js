@@ -49,4 +49,21 @@ var multipleCardCarousel = document.querySelector(
   } else {
     $(multipleCardCarousel).addClass("slide");
   }
+  $("#submit-form").submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+        url:"https://script.google.com/macros/s/AKfycbz56OxQ6w2pz0YQ5XoZBId4ee3hh6zmNRn_El5iCdKswU-2bgrJjWaxzcwZXa4-41Md/exec",
+        data:$("#submit-form").serialize(),
+        method:"post",
+        success:function (response){
+            alert("Form submitted successfully")
+            window.location.reload()
+            //window.location.href="https://google.com"
+        },
+        error:function (err){
+            alert("Something Error")
+
+        }
+    })
+})
   
