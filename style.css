@@ -108,12 +108,12 @@ h1 {
     33.33% { content: "Web "; }
     41.66% { content: "Web D"; }
     50% { content: "Web De"; }
-    58.33% { content: "Web Dev"; }
-    66.66% { content: "Web Deve"; }
-    75% { content: "Web Devel"; }
-    83.33% { content: "Web Develo"; }
-    91.66% { content: "Web Develope"; }
-    100% { content: "Web Developer"; }
+    58.33% { content: "Web Des"; }
+    66.66% { content: "Web Desi"; }
+    75% { content: "Web Desig"; }
+    83.33% { content: "Web Design"; }
+    91.66% { content: "Web Designe"; }
+    100% { content: "Web Designer"; }
 }
 .typewriter {
     --caret: currentcolor;
