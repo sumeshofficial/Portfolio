@@ -103,19 +103,29 @@ h1 {
 }
   @keyframes typing {
     0% { content: ""; }
-    8.33% { content: "W"; }
-    16.66% { content: "We"; }
-    25% { content: "Web"; }
-    33.33% { content: "Web "; }
-    41.66% { content: "Web D"; }
-    50% { content: "Web De"; }
-    58.33% { content: "Web Des"; }
-    66.66% { content: "Web Desi"; }
-    75% { content: "Web Desig"; }
-    83.33% { content: "Web Design"; }
-    91.66% { content: "Web Designe"; }
-    100% { content: "Web Designer"; }
+    4.76% { content: "F"; }
+    9.52% { content: "Fu"; }
+    14.28% { content: "Ful"; }
+    19.04% { content: "Full"; }
+    23.8% { content: "Full "; }
+    28.56% { content: "Full S"; }
+    33.32% { content: "Full St"; }
+    38.08% { content: "Full Sta"; }
+    42.84% { content: "Full Stac"; }
+    47.6% { content: "Full Stack"; }
+    52.36% { content: "Full Stack "; }
+    57.12% { content: "Full Stack D"; }
+    61.88% { content: "Full Stack De"; }
+    66.64% { content: "Full Stack Dev"; }
+    71.4% { content: "Full Stack Deve"; }
+    76.16% { content: "Full Stack Devel"; }
+    80.92% { content: "Full Stack Develo"; }
+    85.68% { content: "Full Stack Develop"; }
+    90.44% { content: "Full Stack Develope"; }
+    95.2% { content: "Full Stack Developer"; }
+    100% { content: "Full Stack Developer"; }
 }
+
 .typewriter {
     --caret: currentcolor;
 }
