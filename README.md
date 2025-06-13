@@ -1,1 +1,1 @@
- https://sumeshofficial.github.io/Portfolio/
+https://sumeshofficial.github.io/portfolio/
