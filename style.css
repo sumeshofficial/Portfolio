@@ -100,6 +100,16 @@ h1 {
     margin: 1rem 0 5px 15px;
     letter-spacing: 2px;
 }
+
+.typewriter-text::after {
+  content: "";
+  animation: typing 4s steps(12) infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
   @keyframes typing {
     0% { content: ""; }
     8.33% { content: "W"; }
